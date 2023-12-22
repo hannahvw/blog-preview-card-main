@@ -40,7 +40,7 @@ img {
   border: 2px solid var(--neutral-color-900);
   border-radius: 15px;
   box-shadow: 6px 6px;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   padding: 1.5rem;
 }
 
@@ -53,6 +53,7 @@ img {
 .card__img {
   border-radius: 10px;
   margin-bottom: 1rem;
+  overflow: hidden;
 }
 
 .card__category {
@@ -82,16 +83,16 @@ h1 {
 }
 
 .card__author {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .card__author img {
-    width: 2rem;
-    align-self: center;
+  width: 2rem;
+  align-self: center;
 }
 
 .card__author p {
-    font-weight: 800;
+  font-weight: 800;
 }
